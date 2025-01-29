@@ -13,3 +13,4 @@ recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+With this implementation, the while loop processes subarrays using a stack, and the for loop nested in this while loop partions each subarray around the pivot look if the element is greater or less than. In a worst-case runtime, the time complexity would be $\Theta$ $(n^2)$. 
